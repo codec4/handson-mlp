@@ -2,12 +2,10 @@
 name = "handson-mlp"
 version = "1.0.0"
 description = "A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn and PyTorch."
-authors = [
-    { name = "Aurélien Géron" }
-]
-license = { text = "Apache-2.0" }
+authors = [{ name = "Aurélien Géron" }]
+license = "Apache-2.0"
 readme = "README.md"
-requires-python = ">=3.11,<3.13"
+requires-python = ">=3.11,<3.14"
 
 dependencies = [
     # Core scientific stack
@@ -69,6 +67,9 @@ dependencies = [
     "urlextract>=1.9.0,<2.0.0",
     "soundfile>=0.13.1",
 ]
+
+[tool.setuptools]
+packages = []
 
 [project.optional-dependencies]
 dev = [
